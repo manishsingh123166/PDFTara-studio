@@ -1,0 +1,131 @@
+{
+  "$schema": "https://fundingjson.org",
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "PDFTara",
+    "email": "admin@pdftara.com",
+    "phone": "",
+    "description": "PDFTara (Udyam Registered MSME: UDYAM-UP-69-0015414) builds a 100% offline, zero-server-upload open-source productivity and creative suite powered by local AI (Ollama) and Rust.",
+    "webpageUrl": {
+      "url": "https://pdftara.com"
+    }
+  },
+  "projects": [
+    {
+      "guid": "pdftara-studio",
+      "name": "PDFTara Studio",
+      "description": "Cross-platform offline desktop productivity suite (Windows, Mac, Linux) powered by Python and local Ollama LLMs, featuring an offline AI Copilot and zero-server-upload document processing.",
+      "webpageUrl": {
+        "url": "https://pdftara.com"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "local-ai",
+        "ollama",
+        "python",
+        "privacy",
+        "desktop-app",
+        "offline-first"
+      ]
+    },
+    {
+      "guid": "pdftara-pixel",
+      "name": "PDFTara Pixel",
+      "description": "An open-source, 100% offline photo editing and raster graphics desktop engine built in Rust with local AI vision models—serving as a free, private alternative to Adobe Photoshop.",
+      "webpageUrl": {
+        "url": "https://pdftara.com"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "rust",
+        "photo-editor",
+        "image-processing",
+        "local-ai",
+        "privacy",
+        "open-source"
+      ]
+    },
+    {
+      "guid": "pdftara-cine",
+      "name": "PDFTara Cine",
+      "description": "A hardware-accelerated, 100% offline non-linear video editing desktop engine built in Rust with local AI (auto-captioning, background removal, upscaling)—serving as a free, private alternative to proprietary video editors.",
+      "webpageUrl": {
+        "url": "https://pdftara.com"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "rust",
+        "video-editor",
+        "multimedia",
+        "local-ai",
+        "privacy",
+        "ffmpeg"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank-india",
+        "type": "bank",
+        "address": "Available upon grant approval (Udyam Registered MSME, India)",
+        "description": "Direct INR bank transfer to PDFTara (India) for open-source R&D and systems engineering."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "studio-ai-plan",
+        "status": "active",
+        "name": "PDFTara Studio: Local Ollama AI Copilot & Cross-Platform Optimization",
+        "description": "Funding for 6 months of engineering to optimize offline Ollama LLM workflows, cross-platform packaging (Windows, Mac, Linux), and community documentation.",
+        "amount": 350000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [
+          "bank-india"
+        ]
+      },
+      {
+        "guid": "pixel-rust-plan",
+        "status": "active",
+        "name": "PDFTara Pixel: Rust Offline Photo Editor & Local AI Vision Engine",
+        "description": "Funding for 6 months of Rust systems engineering to build multi-layer raster editing, GPU acceleration, and offline AI background removal/upscaling.",
+        "amount": 500000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [
+          "bank-india"
+        ]
+      },
+      {
+        "guid": "cine-rust-plan",
+        "status": "active",
+        "name": "PDFTara Cine: Rust Offline Video Timeline & Local AI Media Engine",
+        "description": "Funding for 6-9 months of intensive Rust and GPU engineering to complete hardware-accelerated multi-track video rendering and offline AI auto-captioning.",
+        "amount": 650000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [
+          "bank-india"
+        ]
+      }
+    ]
+  }
+}
