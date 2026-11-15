@@ -1,58 +1,64 @@
+
 {
-  "$schema": "https://fundingjson.org",
-  "version": "v1.0.0",
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
   "entity": {
     "type": "organisation",
     "role": "owner",
     "name": "PDFTara",
     "email": "admin@pdftara.com",
-    "phone": "",
-    "description": "PDFTara (Udyam Registered MSME: UDYAM-UP-69-0015414) builds a 100% offline, zero-server-upload open-source productivity and creative suite powered by local AI (Ollama) and Rust.",
+    "description": "PDFTara is an India-based open-source software initiative and Udyam Registered MSME (UDYAM-UP-69-0015414). We develop privacy-focused, offline-first productivity and creative software, including PDFTara Studio and PDFTara Pixel. Our mission is to make professional software accessible through open-source development.",
     "webpageUrl": {
-      "url": "https://www.pdftara.com/"
+      "url": "https://www.pdftara.com/",
+      "wellKnown": "https://www.pdftara.com/.well-known/funding-manifest-urls"
     }
   },
   "projects": [
     {
       "guid": "pdftara-studio",
       "name": "PDFTara Studio",
-      "description": "Cross-platform offline desktop productivity suite (Windows, Mac, Linux) powered by Python and local Ollama LLMs, featuring an offline AI Copilot and zero-server-upload document processing.",
+      "description": "A cross-platform desktop productivity suite for Windows, macOS and Linux. Built with Electron, TypeScript and Python. The project focuses on offline-first document processing, PDF editing and a local AI Copilot powered by Ollama. Funding will support development, testing, performance optimization and cross-platform releases.",
       "webpageUrl": {
-        "url": "https://www.pdftara.com/"
+        "url": "https://www.pdftara.com/",
+        "wellKnown": "https://www.pdftara.com/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com"
+        "url": "https://github.com/pdftara-creator/PDFTara-studio"
       },
       "licenses": [
         "spdx:Apache-2.0"
       ],
       "tags": [
+        "pdf-tools",
+        "desktop-app",
         "local-ai",
         "ollama",
         "python",
         "privacy",
-        "desktop-app",
-        "offline-first"
+        "offline-first",
+        "open-source"
       ]
     },
     {
       "guid": "pdftara-pixel",
       "name": "PDFTara Pixel",
-      "description": "Professional open-source, 100% offline photo editing and raster graphics desktop software built in Rust with local AI vision capabilities—serving as a free, private alternative to Adobe Photoshop.",
+      "description": "An open-source professional photo editing application built with Rust. The project aims to provide advanced raster graphics editing, layers, masks, adjustment tools, vector workflows, PSD compatibility and GPU-accelerated rendering. Development priorities include performance, image format compatibility and local AI-assisted image editing.",
       "webpageUrl": {
-        "url": "https://www.pdftara.com/"
+        "url": "https://www.pdftara.com/",
+        "wellKnown": "https://www.pdftara.com/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com"
+        "url": "https://github.com/manishsingh123166/PDFTara-pixel"
       },
       "licenses": [
-        "spdx:Apache-2.0",
-        "spdx:MIT"
+        "spdx:MIT",
+        "spdx:Apache-2.0"
       ],
       "tags": [
         "rust",
         "photo-editor",
         "image-processing",
+        "gpu",
         "local-ai",
         "privacy",
         "open-source"
@@ -64,16 +70,15 @@
       {
         "guid": "bank-india",
         "type": "bank",
-        "address": "Available upon grant approval (Udyam Registered MSME, India)",
-        "description": "Direct INR bank transfer to PDFTara (India) for open-source R&D and systems engineering."
+        "description": "Direct INR bank transfer to PDFTara, India. Bank details will be provided securely after funding approval. Contact: admin@pdftara.com."
       }
     ],
     "plans": [
       {
         "guid": "studio-ai-plan",
         "status": "active",
-        "name": "PDFTara Studio: Local Ollama AI Copilot & Cross-Platform Optimization",
-        "description": "Funding for 6 months of engineering to optimize offline Ollama LLM workflows, cross-platform packaging (Windows, Mac, Linux), and community documentation.",
+        "name": "PDFTara Studio - Development and Local AI",
+        "description": "Funding requested for six months of engineering, offline document processing improvements, local Ollama AI Copilot development, Windows/macOS/Linux packaging, testing, documentation and community support.",
         "amount": 400000,
         "currency": "INR",
         "frequency": "one-time",
@@ -84,8 +89,8 @@
       {
         "guid": "pixel-rust-plan",
         "status": "active",
-        "name": "PDFTara Pixel: Rust Offline Photo Editor & Local AI Vision Engine",
-        "description": "Funding for 6-9 months of Rust systems engineering to build multi-layer raster editing, GPU acceleration, and offline AI background removal/upscaling.",
+        "name": "PDFTara Pixel - Rust Photo Editor Development",
+        "description": "Funding requested for six to nine months of Rust engineering, advanced layer and mask systems, GPU rendering optimization, PSD compatibility, image processing, testing and development of local AI-assisted editing capabilities.",
         "amount": 600000,
         "currency": "INR",
         "frequency": "one-time",
