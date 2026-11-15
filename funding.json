@@ -9,7 +9,7 @@
     "phone": "",
     "description": "PDFTara (Udyam Registered MSME: UDYAM-UP-69-0015414) builds a 100% offline, zero-server-upload open-source productivity and creative suite powered by local AI (Ollama) and Rust.",
     "webpageUrl": {
-      "url": "https://pdftara.com"
+      "url": "https://www.pdftara.com/"
     }
   },
   "projects": [
@@ -18,7 +18,7 @@
       "name": "PDFTara Studio",
       "description": "Cross-platform offline desktop productivity suite (Windows, Mac, Linux) powered by Python and local Ollama LLMs, featuring an offline AI Copilot and zero-server-upload document processing.",
       "webpageUrl": {
-        "url": "https://pdftara.com"
+        "url": "https://www.pdftara.com/"
       },
       "repositoryUrl": {
         "url": "https://github.com"
@@ -38,15 +38,16 @@
     {
       "guid": "pdftara-pixel",
       "name": "PDFTara Pixel",
-      "description": "An open-source, 100% offline photo editing and raster graphics desktop engine built in Rust with local AI vision models—serving as a free, private alternative to Adobe Photoshop.",
+      "description": "Professional open-source, 100% offline photo editing and raster graphics desktop software built in Rust with local AI vision capabilities—serving as a free, private alternative to Adobe Photoshop.",
       "webpageUrl": {
-        "url": "https://pdftara.com"
+        "url": "https://www.pdftara.com/"
       },
       "repositoryUrl": {
         "url": "https://github.com"
       },
       "licenses": [
-        "spdx:Apache-2.0"
+        "spdx:Apache-2.0",
+        "spdx:MIT"
       ],
       "tags": [
         "rust",
@@ -55,28 +56,6 @@
         "local-ai",
         "privacy",
         "open-source"
-      ]
-    },
-    {
-      "guid": "pdftara-cine",
-      "name": "PDFTara Cine",
-      "description": "A hardware-accelerated, 100% offline non-linear video editing desktop engine built in Rust with local AI (auto-captioning, background removal, upscaling)—serving as a free, private alternative to proprietary video editors.",
-      "webpageUrl": {
-        "url": "https://pdftara.com"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com"
-      },
-      "licenses": [
-        "spdx:Apache-2.0"
-      ],
-      "tags": [
-        "rust",
-        "video-editor",
-        "multimedia",
-        "local-ai",
-        "privacy",
-        "ffmpeg"
       ]
     }
   ],
@@ -95,7 +74,7 @@
         "status": "active",
         "name": "PDFTara Studio: Local Ollama AI Copilot & Cross-Platform Optimization",
         "description": "Funding for 6 months of engineering to optimize offline Ollama LLM workflows, cross-platform packaging (Windows, Mac, Linux), and community documentation.",
-        "amount": 350000,
+        "amount": 400000,
         "currency": "INR",
         "frequency": "one-time",
         "channels": [
@@ -106,20 +85,8 @@
         "guid": "pixel-rust-plan",
         "status": "active",
         "name": "PDFTara Pixel: Rust Offline Photo Editor & Local AI Vision Engine",
-        "description": "Funding for 6 months of Rust systems engineering to build multi-layer raster editing, GPU acceleration, and offline AI background removal/upscaling.",
-        "amount": 500000,
-        "currency": "INR",
-        "frequency": "one-time",
-        "channels": [
-          "bank-india"
-        ]
-      },
-      {
-        "guid": "cine-rust-plan",
-        "status": "active",
-        "name": "PDFTara Cine: Rust Offline Video Timeline & Local AI Media Engine",
-        "description": "Funding for 6-9 months of intensive Rust and GPU engineering to complete hardware-accelerated multi-track video rendering and offline AI auto-captioning.",
-        "amount": 650000,
+        "description": "Funding for 6-9 months of Rust systems engineering to build multi-layer raster editing, GPU acceleration, and offline AI background removal/upscaling.",
+        "amount": 600000,
         "currency": "INR",
         "frequency": "one-time",
         "channels": [
